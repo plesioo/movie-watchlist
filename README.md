@@ -2,7 +2,7 @@
 This is a **Scrimba project** from the Frontend Developer Career Path, to practice workign with APIs. The app allows users to create a dynamic movie watchlist by fetching movie data from the [OMDb API](https://www.omdbapi.com/), based on user input.
 
 In addition to the project requirements I added:
-- support for black and white mode
+- support for dark & light mode
 - improved UX experience, by saving last search in session storage and updating components on user interactions
 - saved watchlist and preferred color scheme in local storage
 - moved API Key into [config.json](./config.json) and used async/await for fetching movie data efficiently,
