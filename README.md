@@ -31,7 +31,7 @@ In addition to the project requirements I added:
 
 [![Live Preview](https://github.com/user-attachments/assets/10f0b259-a259-46c5-98ce-6f619adf39fd)](https://your-live-preview-link.com)
 
-**[Click here to view the live app!](https://your-live-preview-link.com)**
+**[Click here to view the live app!](https://movie-watchlist-app-proj.netlify.app/)**
 
 ## Check out Scrimba
 
