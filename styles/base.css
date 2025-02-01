@@ -107,12 +107,22 @@ main {
 .color-mode__wrapper {
   cursor: pointer;
   position: absolute;
-  top: 1.5em;
-  left: 2em;
-  width: 50px;
-  height: 50px;
+  top: 0.5em;
+  left: 0.75em;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   transition: background-color 0.75s ease-in-out;
+}
+
+.color-mode--light {
+  width: 30px;
+  height: 30px;
+}
+
+.color-mode--dark {
+  width: 25px;
+  height: 25px;
 }
 
 .color-mode__wrapper:hover {
@@ -154,5 +164,22 @@ main {
 
   .movies-list__placeholder {
     font-size: 1.125rem;
+  }
+
+  .color-mode__wrapper {
+    top: 1.5em;
+    left: 2em;
+    width: 50px;
+    height: 50px;
+  }
+
+  .color-mode--light {
+    width: 50px;
+    height: 50px;
+  }
+
+  .color-mode--dark {
+    width: 35px;
+    height: 35px;
   }
 }
