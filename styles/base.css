@@ -1,0 +1,158 @@
+button {cursor: pointer;}
+
+.container {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+body {
+  margin: auto;
+  flex-direction: column;
+  max-width: 600px;
+  background-color: var(--body-background-color);
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/background.png');
+  justify-content: space-between;
+  color: var(--header-color);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.header__link {
+  font-size: .75rem;
+  color: inherit;
+}
+
+/* movies */
+
+.movies-list {
+  background-color: var(--background-color);
+  min-height: 100%;
+  color: var(--movies-placeholder-color);
+  flex-direction: column;
+}
+
+.movies-list > svg {
+  fill: var(--movies-placeholder-color);
+}
+
+.movie {
+  gap: 1em;
+  padding: 1.5em 0;
+  border-bottom: 1.5px solid var(--border-color);
+}
+
+.movies-list__placeholder {
+  text-align: center;
+  font-size: .875rem;
+}
+
+.movie__title {
+  font-weight: 500;
+}
+
+.movie__poster {
+  width: 75px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.movie__rating-icon {
+  color: #FEC654;
+}
+
+.movie__details {
+  flex-direction: column;
+  gap: .75em;
+}
+
+.movie__rating {
+  margin-left: .25em;
+  font-weight: initial;
+}
+
+.movie__info,
+.movie__rating {
+  gap: 1em;
+  font-size: .625rem;
+}
+
+.movie__info > div {
+  gap: .5em;
+}
+
+.movie__desc {
+  line-height: 1.5;
+  color: var(--movie-plot-color);
+  font-size: .75rem;
+}
+
+/* color mode */
+
+.color-mode__wrapper {
+  cursor: pointer;
+  position: absolute;
+  top: 1.5em;
+  left: 2em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background-color 0.75s ease-in-out;
+}
+
+.color-mode__wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media(min-width: 500px) {
+  .container {
+    padding-right: 2.875em;
+    padding-left: 2.875em;
+  }
+
+  .header {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+
+  .header__title {
+    font-size: 2.625rem;
+  }
+
+  .header__link {
+    font-size: .875rem;
+  }
+
+  .movie__poster {
+    width: 100px;
+    height: 150px;  
+  }
+
+  .movie__info,
+  .movie__rating {
+    font-size: .75rem;
+  }
+
+  .movie__desc {
+    font-size: .875rem;
+  }
+
+  .movies-list__placeholder {
+    font-size: 1.125rem;
+  }
+}

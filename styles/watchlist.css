@@ -1,0 +1,22 @@
+.fa-circle-plus {
+  margin-right: 0.2em;
+}
+
+/* movies  */
+
+.movies-list {
+  padding-top: 1em;
+}
+
+.movies-list__placeholder {
+  font-size: .875rem;
+  color: var(--watchlist-placeholder-color);
+  max-width: 400px;
+  margin-bottom: .75em;
+}
+
+@media(min-width: 500px) {
+  .movies-list__placeholder {
+    font-size: 1.125rem;
+  }
+}
