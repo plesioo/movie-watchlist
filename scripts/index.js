@@ -2,7 +2,7 @@ import createMovieElement from "./shared.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
   const API_KEY = await getApiKey();
-  const API_URL = `http://www.omdbapi.com/?apikey=${API_KEY}&`;
+  const API_URL = `https://www.omdbapi.com/?apikey=${API_KEY}&`;
 
   const moviesContainer = document.getElementById('movies');
   const moviePlaceholder = document.getElementById('movie-placeholder');
