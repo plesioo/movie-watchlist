@@ -5,7 +5,7 @@ In addition to the project requirements I added:
 - support for black and white mode
 - improved UX experience, by saving last search in session storage and updating components on user interactions
 - saved watchlist and preferred color scheme in local storage
-- moved API Key into [config.json](./config.json) and used async/await for fetching movie data efficiently, 
+- moved API Key into [config.json](./config.json) and used async/await for fetching movie data efficiently,
 
 ## Setup & Usage
 1. **Clone the repository**:
@@ -27,8 +27,11 @@ In addition to the project requirements I added:
 4. **Run the project**:
    - Open `index.html` in your preferred browser or use a live server extension in your code editor.
 
-## Preview
-![image](https://github.com/user-attachments/assets/10f0b259-a259-46c5-98ce-6f619adf39fd)
+## 🚀 Preview
+
+[![Live Preview](https://github.com/user-attachments/assets/10f0b259-a259-46c5-98ce-6f619adf39fd)](https://your-live-preview-link.com)
+
+**[Click here to view the live app!](https://your-live-preview-link.com)**
 
 ## Check out Scrimba
 
